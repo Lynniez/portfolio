@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lynda DJEBOURI - AI Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="#home">Lynda DJEBOURI</a>
+  <nav aria-label="Main">
+    <ul id="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <button class="menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="blob b1" aria-hidden="true"></div>
+    <div class="blob b3" aria-hidden="true"></div>
+
+    <div class="hero-text">
+      <p class="hey">Hi, I'm</p>
+      <h1><span class="name">Lynda</span></h1>
+      <p class="roles">Student in Artificial Intelligence at ENSTA</p>
+      <div class="hero-btns">
+        <a class="btn primary" href="#projects">My projects</a>
+        <a class="btn ghost" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <img src="images/photo.jpg" alt="Portrait of Your Name" width="400" height="460">
+    </div>
+  </section>
+
+  <section id="about" class="panel">
+    <h2>About</h2>
+    <p>A 4th year Computer Science student at ENSTA Algiers, with a creative edge in design and game development.</p>
+    <ul class="facts">
+      <li><strong>Studying:</strong> Artificial Intelligence, ENSTA</li>
+      <li><strong>Interested in:</strong> data science, data analysis, game development</li>
+      <li><strong>Languages:</strong> Arabic, French, English, Spanish</li>
+    </ul>
+  </section>
+
+  <section id="skills" class="panel">
+    <h2>Skills</h2>
+    <div class="skill-grid" id="skill-grid"></div>
+
+    <h3 class="sub">Education and experience</h3>
+    <ol class="timeline">
+      <li><time>2025</time><strong>Sonelgaz Internship</strong><span>Discovery internship that taught me about huge data infrastruscte companies. </span></li>
+      <li><time>2023 - now</time><strong>Engineering studies in AI</strong><span>ENSTA</span></li>
+      <li><time>2023</time><strong>Baccalaureate</strong><span>mentien trés bien</span></li>
+    </ol>
+  </section>
+
+  <section id="projects" class="panel">
+    <div class="head-row">
+      <h2>Projects</h2>
+      <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+    </div>
+    <div class="project-grid" id="project-grid"></div>
+  </section>
+
+  <section id="contact" class="panel contact">
+    <div>
+      <h2>Contact</h2>
+      <p>Send me a message with the form or write to me directly.</p>
+      <ul class="info">
+        <li>Email: <a href="mailto:you@example.com">lyndadjebouri1@gmail.com</a></li>
+        <li>Location: Your city, Algeria</li>
+        <li><a href="https://github.com/Lynniez" target="_blank" rel="noopener">GitHub</a> / <a href="https://linkedin.com/LyndaDJEBOURI" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <form id="contact-form" novalidate>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" autocomplete="name">
+      <small class="error" id="err-name"></small>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email">
+      <small class="error" id="err-email"></small>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+      <small class="error" id="err-message"></small>
+
+      <button class="btn primary" type="submit">Send</button>
+      <p class="status" id="form-status" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; <span id="year"></span>Lynda DJEBOURI</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
