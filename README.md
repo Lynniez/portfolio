@@ -2,6 +2,7 @@
 
 Student: Your Name
 Module: WAMD, TD-TP 1 (ENSTA)
+url : https://lynniez.github.io/portfolio/
 
 ## Description
 My personal portfolio website. It shows who I am, my skills, my projects, my education and how to contact me. It works on desktop, tablet and phone.
