@@ -1,6 +1,6 @@
 # Portfolio
 
-Student: Your Name
+Student: DJEBOURI Lynda
 Module: WAMD, TD-TP 1 (ENSTA)
 url : https://lynniez.github.io/portfolio/
 
